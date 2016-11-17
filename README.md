@@ -6,21 +6,18 @@ LSST DESC SN workshop 16 - 18 November 2016.
 Install dependencies
 --------------------
 
-The notebooks are written assuming sncosmo v1.4.
+The notebooks are written assuming sncosmo v1.4.0.
 
-Assuming you have numpy, scipy and matplotlib installed...
-
-**Using pip**
-
-```
-pip install sncosmo
-pip install iminuit
-pip install emcee
-```
+Assuming you have numpy, scipy, matplotlib and astropy installed...
 
 **Using conda**
 
 ```
-conda install -c conda-forge sncosmo emcee
-conda install -c openastronomy iminuit
+conda install --c astropy sncosmo iminuit emcee
+``
+
+**Using pip**
+
+```
+pip install sncosmo iminuit emcee
 ```
